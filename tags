@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Pinyin	tzg/Pinyin.php	/^class Pinyin$/;"	c
+arraytzg	tzg/tzg.php	/^	$arraytzg=$arraytzg\/15;$/;"	v
+arraytzg	tzg/tzg.php	/^	$arraytzg=intval(array_sum($tzg_hs));$/;"	v
+bgcolor	tzg/tzg.php	/^$bgcolor=$_POST['bgcolor']??'black';\/\/表格颜色$/;"	v
+bglx	tzg/tzg.php	/^	$bglx=$bglx.$bgcolor;\/\/表格颜色变化$/;"	v
+bglx	tzg/tzg.php	/^$bglx=$_POST['types']??'tzg';\/\/表格类型，默认田字格$/;"	v
+bs	tzg/tzg.php	/^$bs=$_POST['bs']??'0';\/\/笔顺填充$/;"	v
+chineseToPinyin	tzg/Pinyin.php	/^    private static function chineseToPinyin($string, $encoding)$/;"	f
+cnt	tzg/tzg.php	/^            $cnt = $count - 13;$/;"	v
+cnt	tzg/tzg.php	/^            $cnt = $count;$/;"	v
+cnt	tzg/tzg.php	/^            $cnt = 13;$/;"	v
+color	tzg/tzg.php	/^$color=$color[$z_color];\/\/显示主颜色$/;"	v
+color	tzg/tzg.php	/^$color=[$/;"	v
+count	tzg/tzg.php	/^	$count=count($data['strokes']);\/\/统计共有多少画$/;"	v
+data	tzg/tzg.php	/^		$data=file_get_contents("bishun_data\/".$hzGBK.".json");$/;"	v
+data	tzg/tzg.php	/^		$data=file_get_contents("bishun_data\/".$hz['0'][$ihz].".json");$/;"	v
+data	tzg/tzg.php	/^	$data=json_decode($data,1);$/;"	v
+dic	tzg/Pinyin.php	/^    private static $dic = array($/;"	v
+encoding	tzg/Pinyin.php	/^    private static $encoding = 'UTF-8';$/;"	v
+encoding	tzg/Pinyin.php	/^    public static function getPinyin($string, $encoding = 'utf-8')$/;"	v
+encoding	tzg/Pinyin.php	/^    public static function getShortPinyin($string, $encoding = 'utf-8')$/;"	v
+f_color	tzg/tzg.php	/^$f_color=$_POST['fcolor']??'5';\/\/辅字体颜色$/;"	v
+fcolor	tzg/tzg.php	/^	$fcolor=$fz_color['10'];$/;"	v
+fcolor	tzg/tzg.php	/^$fcolor=$fz_color[$z_color.$f_color];\/\/辅助颜色$/;"	v
+fz_color	tzg/tzg.php	/^$fz_color=[$/;"	v
+getPinyin	tzg/Pinyin.php	/^    public static function getPinyin($string, $encoding = 'utf-8')$/;"	f
+getShortPinyin	tzg/Pinyin.php	/^    public static function getShortPinyin($string, $encoding = 'utf-8')$/;"	f
+hzGBK	tzg/tzg.php	/^	$hzGBK=iconv('UTF-8', 'GB2312' ,$hz['0'][$ihz]);$/;"	v
+idx	tzg/tzg.php	/^            $idx = 13 * $line + $i + 1;$/;"	v
+kg	tzg/tzg.php	/^		$kg= ((ceil(abs($kg)\/12)+1)*12)-($count+1);$/;"	v
+kg	tzg/tzg.php	/^		$kg=12 - (12* $tzg12);$/;"	v
+kg	tzg/tzg.php	/^	$kg=0;\/\/空格，每行剩余未填充的空格$/;"	v
+lines	tzg/tzg.php	/^    $lines = ceil($count \/ 13) ;$/;"	v
+mbStringToArray	tzg/Pinyin.php	/^    private static function mbStringToArray($string)$/;"	f
+onload	tzg/tzg.php	/^    window.onload = function(){$/;"	j
+pinyin	tzg/Pinyin.php	/^    private static $pinyin = '';$/;"	v
+py	tzg/tzg.php	/^$py=$_POST['py']??'0';\/\/拼音$/;"	v
+py_str	tzg/tzg.php	/^		$py_str=Pinyin::getPinyin($hz['0'][$ihz]);$/;"	v
+result	tzg/Pinyin.php	/^        $result = array();$/;"	v
+short_pinyin	tzg/Pinyin.php	/^    private static $short_pinyin = '';$/;"	v
+stop	tzg/Pinyin.php	/^        $stop   = mb_strlen($string, 'utf-8');$/;"	v
+string	tzg/Pinyin.php	/^    private static $string = '';$/;"	v
+title	tzg/tzg.php	/^$title=$_POST['title']??'';\/\/辅字体颜色$/;"	v
+tmp	tzg/Pinyin.php	/^                $tmp = $v;$/;"	v
+tmp	tzg/Pinyin.php	/^                $tmp = self::$dic[$v];$/;"	v
+tzg12	tzg/tzg.php	/^	$tzg12=($count+1)\/12;$/;"	v
+tzg_hs	tzg/tzg.php	/^$tzg_hs=array_sum($tzg_hs);\/\/田字格使用行数$/;"	v
+tzgzys	tzg/tzg.php	/^$tzgzys=ceil($tzg_hs\/15);\/\/田字格总页数$/;"	v
+window.onload	tzg/tzg.php	/^    window.onload = function(){$/;"	j
+words	tzg/Pinyin.php	/^        $words              = self::mbStringToArray(mb_convert_encoding($string, 'utf-8', $encoding));$/;"	v
+words	tzg/tzg.php	/^$words = implode('', $words[0] );$/;"	v
+words	tzg/tzg.php	/^$words=$_POST['words']??'';\/\/笔顺字$/;"	v
+z_color	tzg/tzg.php	/^$z_color=$_POST['zcolor']??'black';\/\/主字体颜色$/;"	v
+zhengye	tzg/tzg.php	/^$zhengye=($tzgzys*15-$tzg_hs)*12;$/;"	v

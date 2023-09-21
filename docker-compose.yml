@@ -1,0 +1,14 @@
+services:
+  nginx:
+    image: 'bitnami/nginx:latest'
+    depends_on:
+      - phpfpm
+    ports:
+      - '8080:80'
+    volumes:
+      - ./tzg.conf:/opt/bitnami/nginx/conf/server_blocks/tzg.conf
+      - ./tzg:/app:ro
+  phpfpm:
+    image: 'bitnami/php-fpm:latest'
+    volumes:
+      - ./tzg:/app
